@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px 6px rgb(187, 229, 236);
+    width: 70vw;
+    height: 60vh;
+    min-width: 448px;
+    min-height: 368px;
+
+}
+.input {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input>input {
+    margin: 10px;
+    width: 60vw;
+    max-width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(159, 217, 224);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+.input>input:focus {
+    outline: none;
+
+}
+
+.input>input:hover {
+    border-bottom: 2px solid rgb(14, 182, 204);
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: rgb(19, 138, 168);
+    border: none;
+
+    padding: 9px 60px;
+    color: rgb(228, 222, 222);
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+
+
+    white-space: nowrap;
+
+}
+
+button:hover {
+
+    outline: none;
+
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 0 20px rgb(8, 193, 245);
+}
+
+
+button:focus {
+    box-shadow: 0 0 30px rgb(8, 193, 245);
+
+
+    border: 1px solid rgb(8, 192, 243);
+}
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+     box-shadow: 0 0 20px rgb(253, 253, 253);
+}

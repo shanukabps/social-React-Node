@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    min-width: 534px;
+    height: 10vh;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+    overflow: hidden;
+    align-items: center;
+
+
+
+
+}
+
+.navbar_logo {
+    margin-left: 10px;
+    font-family: 'Grandstander',
+        cursive;
+}
+
+.navbar_items {
+    flex: 1;
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar_link {
+    margin-right: 10px;
+}
+
+.navbar_link>a {
+
+
+    color: #9cabd3;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+/* Change the color of links on hover */
+.navbar_link>a:hover {
+
+
+    color: white;
+    text-shadow: 1px 1px 2px black,
+        0 0 25px rgb(0, 4, 255),
+        0 0 5px darkblue;
+}
+
+/* Add an active class to highlight the current page */
+/* .navbar>a.active {
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black,
+        0 0 25px rgb(0, 4, 255),
+        0 0 5px darkblue;
+
+
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}

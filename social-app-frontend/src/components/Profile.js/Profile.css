@@ -1,0 +1,41 @@
+.profile_header {
+  display: flex;
+
+  justify-content: space-around;
+  margin: 18px 0;
+  border-bottom: 1px solid mediumaquamarine;
+}
+.profile_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.profile_details > h4 {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.profile_rating > h5 {
+  margin-top: 20px;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.profile_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.gallery_item {
+  width: 30%;
+  height: 150px;
+}

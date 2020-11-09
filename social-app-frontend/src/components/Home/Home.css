@@ -1,0 +1,122 @@
+.home_card {
+  align-items: flex-start;
+  margin: 26px auto;
+  box-shadow: 1px 4px 6px 6px rgb(232, 237, 238);
+  width: 450px;
+  height: 570px;
+  border-radius: 0;
+  padding-bottom: 20px;
+}
+.home_card > h3 {
+  margin: 10px 0;
+  color: rgb(145, 148, 148);
+  font-family: "Inconsolata", monospace;
+}
+
+.comment_input_button {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.home_img {
+  width: 450px;
+  height: 300px;
+  margin-top: 10px;
+}
+/* .diva>p{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+} */
+.home_card_content {
+  margin: 20px;
+}
+.home_card_content > h6 {
+  margin-top: 10px;
+  font-size: large;
+  font-family: "Inconsolata", monospace;
+}
+.input > input {
+  width: 350px;
+  margin: 7px;
+}
+
+.home_body {
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.home_icon {
+  display: flex;
+  max-width: 100px;
+  justify-content: space-between;
+}
+.home_like {
+  cursor: pointer;
+  color: rgb(99, 138, 243);
+}
+
+.home_unlike {
+  cursor: pointer;
+  color: rgb(243, 123, 123);
+}
+
+.commentb {
+  margin-top: 0;
+
+  padding: 5px 10px;
+  background-color: rgb(253, 254, 255);
+  color: rgb(136, 136, 139);
+  font-weight: 600;
+  font-size: x-small;
+}
+.likecount {
+  color: rgb(109, 109, 109);
+}
+.comment_name > h5 {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(95, 95, 95);
+}
+.comment_name > h5 > span {
+  margin-left: 20px;
+  font-weight: 450;
+  color: rgb(95, 95, 95);
+  font-size: 10px;
+  display: block;
+}
+.comment_box {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  overflow-y: scroll;
+  height: 60px;
+}
+.home_card_delete {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.deleteicon {
+  cursor: pointer;
+  margin-top: 5px;
+  color: rgb(236, 108, 108);
+}
+.comment_name {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.comentdelete {
+  color: rgba(255, 255, 255, 0.986);
+  cursor: pointer;
+}
+.name_link {
+  text-decoration: none !important;
+  color: rgb(58, 58, 58);
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap');
+
+
+.register {
+    margin-top: 10vh;
+    display: grid;
+    justify-content: center;
+
+}
+.login {
+    margin-top: 10vh;
+    display: grid;
+    justify-content: center;
+
+}
+
+
+
+.card>h2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Grandstander',
+        cursive;
+}
+
+
+
+
+
+.link>h3 {
+    cursor: pointer;
+    margin: 20px;
+    color: rgb(73, 73, 73);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}

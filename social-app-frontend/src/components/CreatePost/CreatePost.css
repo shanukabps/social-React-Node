@@ -1,0 +1,15 @@
+.createpost {
+      margin-top: 10vh;
+      display: grid;
+      justify-content: center;
+}
+
+.post_input {
+  margin: 100px;
+}
+
+
+.post_button{
+    display: flex;
+    justify-content: center;
+}
